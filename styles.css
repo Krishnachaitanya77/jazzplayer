@@ -1,0 +1,166 @@
+.selection{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 1;
+
+}
+.selection h1{
+  
+  font-size: 5rem;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:#DA0463;
+  padding: 20px;
+  margin: 15px;
+  z-index: 1;
+  opacity: 0.8;
+
+}
+.selection h2{
+
+  font-size: 3rem;
+  font-family:Impact;
+  color:#04da64;
+  padding: 10px;
+  text-align: inherit;
+  z-index: 1;
+  opacity: 0.8;
+  
+
+}
+.selection h3{
+  
+  font-size: 2rem;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:#b604da;
+  padding: 20px;
+  margin: 15px;
+  z-index: 1;
+  opacity: 0.8;
+}
+.abc video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+  height: 100vh;
+}
+.abc .clock{
+  position: relative;
+  object-fit: cover;
+  margin: auto;
+}
+
+
+  
+ 
+  
+  .w {
+    background-image: url("images/tom1.png");
+    
+    
+  }
+  
+  .a {
+    background-image: url("images/tom2.png");
+    
+  }
+  
+  .s {
+    background-image: url("images/tom3.png");
+  
+  }
+  
+  .d {
+    background-image: url("images/tom4.png");
+    
+  }
+  
+  .j {
+    background-image: url("images/snare.png");
+    
+  }
+  
+  .k {
+    background-image: url("images/crash.png");
+    
+  }
+  
+  .l {
+    background-image: url("images/kick.png");
+    
+  }
+  .clock{
+    z-index: 1;
+  }
+  
+  
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0;
+    
+    
+  }
+  
+  .drum {
+    outline: none;
+    align-items: center;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 50px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    
+    margin: 10px;
+
+    
+    
+  }
+  @media all and  (max-width: 500px){
+    .selection{
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    
+    }
+    .selection h1{
+      text-align: center;
+      font-size: 3rem;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color:#DA0463;
+      padding: 20px;
+      margin: 15px;
+      z-index: 1;
+      opacity: 0.8;
+    
+    }
+    .abc video{
+      position: absolute;
+      top: 50;
+      left: 50;
+      width: 100%;
+      object-fit: cover;
+      height: 100vh;
+    }
+
+
+
+  }
+  
+  
+  
